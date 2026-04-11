@@ -1,3 +1,147 @@
 *{
     margin: 0;
 }
+.txt1{
+    display: block;
+    display: flex;
+    gap: 20px;
+    
+}
+.komp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.body{
+    background-color: #CF5DDE;
+}
+.but{
+    display: flex;
+    gap: 10px;
+}
+.txt2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.txim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.tel1{
+    display: none;
+
+}
+.menu{
+    display: none;
+
+}
+.pr{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+}
+.jml{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.pnj{
+    display: flex;
+}
+.bora{
+    display: flex;
+}
+.txts1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    margin-top: 50px;
+}
+.sur{
+    display: flex;
+}
+.tpo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.hy{
+    display: flex;
+}
+.tag{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    margin-top: 40px;
+}
+.kalon{
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+.tg{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.tg2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-bottom: 25px;
+}
+.po{
+    display: flex;
+    gap: 20px;
+
+}
+.brbr{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+.tg3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-bottom: 50px;
+}
+.rgox{
+    background-color: #D05DDE;
+}
+
+@media (max-width:510px) {
+    .txt1{
+        display: none;
+    }
+    .tel1{
+        display: block;
+        margin-right: 600px;
+    }
+    .menu{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .txim{
+        flex-direction: column;
+    }
+    .kalon{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .brbr{
+        display: flex;
+        flex-direction: column;
+    }
+}
